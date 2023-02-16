@@ -6,12 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "start:prod" : "next start -p 80",
     "lint": "next lint"
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "instamojo-nodejs": "0.0.5",
+    "instamojo-payment-nodejs": "^3.0.0",
+    "mongodb": "^5.0.1",
     "next": "13.1.6",
+    "nodemon": "^2.0.20",
+    "querystring": "^0.2.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-toastify": "^9.1.1",
+    "shortid": "^2.2.16"
   }
 }
