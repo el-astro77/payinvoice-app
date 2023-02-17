@@ -21,7 +21,7 @@ const InvoiceDetails = (props) => {
   // delete invoice from the database
   const deleteInvoice = async invoiceId => {
     try {
-      const res = await fetch(`/api/instamojo/${invoiceId}`, {
+      const res = await fetch(`/api/invoices/${invoiceId}`, {
         method: "DELETE",
       });
 
