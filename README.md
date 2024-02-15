@@ -2,8 +2,6 @@
 
 PayIn is a versatile web application built with Next.js and the MERN stack (MongoDB, Express.js, React, Node.js). It offers a seamless solution for managing invoices, supporting operations like CREATE, READ, UPDATE, and DELETE. Furthermore, PayIn integrates the Instamojo payment gateway, allowing users to securely process invoice payments.
 
-[Live Demo](https://invoice-app-im-unique-swaraj77.vercel.app/)
-
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
